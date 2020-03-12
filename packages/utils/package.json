@@ -1,0 +1,6 @@
+{
+  "name": "@mmts/utils",
+  "private": true,
+  "main": "src/index.ts",
+  "version": "0.1.0"
+}

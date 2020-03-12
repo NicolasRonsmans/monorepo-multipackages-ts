@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "lib": ["es2015", "esnext.asynciterable", "dom"],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": ["../packages/*/node_modules", "../packages/*/lib"],
+  "include": ["../packages/*/src/**/*"]
+}
