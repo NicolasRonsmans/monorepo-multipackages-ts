@@ -1,0 +1,21 @@
+{
+  "name": "@mmts/app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mmts/header": "*",
+    "@types/node": "^13.9.1",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "next": "9.3.0",
+    "next-transpile-modules": "^3.1.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "typescript": "^3.8.3"
+  }
+}

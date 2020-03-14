@@ -9,10 +9,12 @@
   "author": "NicolasRonsmans <ronsmans.nicolas@gmail.com>",
   "scripts": {
     "build": "yarn workspace @mmts/app build",
+    "dev": "yarn workspace @mmts/app dev",
     "start": "yarn workspace @mmts/app start"
   },
   "workspaces": {
     "packages": [
+      "app",
       "packages/*"
     ]
   },

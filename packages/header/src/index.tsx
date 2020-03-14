@@ -1,11 +1,14 @@
 import React from 'react';
 
-export function Header() {
+import { hello } from '@mmts/utils';
+
+function Header() {
   return (
     <header>
       <h1>Monorepos Multipackages - TypeScript</h1>
+      <p>{hello()}</p>
     </header>
   );
 }
 
-// export default Header;
+export default Header;
