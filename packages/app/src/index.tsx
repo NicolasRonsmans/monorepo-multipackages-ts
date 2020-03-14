@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { Header } from '@mmts/header';
+import { Header } from '@mmts/header/src/Header';
 import { hello } from '@mmts/utils';
 
 function App() {

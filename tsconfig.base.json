@@ -15,6 +15,6 @@
     "strict": true,
     "target": "es5"
   },
-  "exclude": ["packages/*/node_modules"],
-  "include": ["packages/*/src/**/*"]
+  "exclude": ["node_modules", "packages/*/node_modules"],
+  "include": ["**/@mmts*", "packages/*/src/**/*"]
 }
