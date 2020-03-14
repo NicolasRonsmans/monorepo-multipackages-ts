@@ -1,14 +1,5 @@
 {
   "extends": "../../tsconfig.base",
-  "compilerOptions": {
-    "allowJs": true,
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true
-  },
+  "compilerOptions": {},
   "include": ["src/**/*"]
 }

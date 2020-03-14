@@ -1,7 +1,7 @@
 {
   "name": "@mmts/header",
   "private": true,
-  "main": "src/index.tsx",
+  "main": "src/index.ts",
   "version": "0.1.0",
   "dependencies": {
     "@types/react": "^16.9.23",

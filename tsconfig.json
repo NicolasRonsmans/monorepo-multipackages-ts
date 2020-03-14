@@ -4,5 +4,9 @@
   },
   "files": [],
   "include": [],
-  "references": [{ "path": "./packages/app" }, { "path": "./packages/utils" }]
+  "references": [
+    { "path": "./packages/app" },
+    { "path": "./packages/header" },
+    { "path": "./packages/utils" }
+  ]
 }
