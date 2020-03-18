@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.build",
+  "compilerOptions": {
+    "composite": false,
+    "declaration": false,
+    "noEmit": true,
+    "plugins": [],
+    "types": ["node", "react"]
+  }
+}

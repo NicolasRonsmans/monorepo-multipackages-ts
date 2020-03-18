@@ -1,5 +1,8 @@
 {
-  "extends": "../../tsconfig.base",
-  "compilerOptions": {},
-  "include": ["src/**/*"]
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "types": ["node", "react"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "typings/**/*.d.ts"]
 }
