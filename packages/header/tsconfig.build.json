@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.build",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "build",
+    "paths": {
+      "*": ["*"]
+    },
+    "rootDir": "src"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx"],
+  "references": [{ "path": "../utils/tsconfig.build.json" }]
+}

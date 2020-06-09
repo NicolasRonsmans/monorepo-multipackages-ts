@@ -1,6 +1,7 @@
 {
   "name": "@mmts/utils",
   "private": true,
-  "main": "src/index.ts",
+  "main": "build/index",
+  "types": "build/index.d.ts",
   "version": "0.1.0"
 }

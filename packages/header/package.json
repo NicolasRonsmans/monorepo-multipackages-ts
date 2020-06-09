@@ -1,13 +1,14 @@
 {
   "name": "@mmts/header",
   "private": true,
-  "main": "src/index.tsx",
+  "main": "build/index",
+  "types": "build/index.d.ts",
   "version": "0.1.0",
   "dependencies": {
-    "@mmts/utils": "*",
+    "@mmts/utils": "*"
+  },
+  "peerDependencies": {
     "@types/react": "^16.9.23",
-    "@types/react-dom": "^16.9.5",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react": "^16.13.0"
   }
 }
