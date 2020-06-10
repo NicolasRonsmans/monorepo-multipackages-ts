@@ -1,9 +1,10 @@
 import React from 'react';
 
 import { hello } from '@mmts/utils';
+
 import Subheader from 'Subheader';
 
-function Header() {
+function Header(): JSX.Element {
   return (
     <header>
       <h1>Monorepos Multipackages - TS</h1>
