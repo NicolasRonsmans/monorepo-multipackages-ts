@@ -9,23 +9,27 @@ yarn
 ### Then
 
 ```
-yarn compile
+yarn start:cra
 ```
 
-or
+### Or
+
+```
+yarn compile
+```
 
 ```
 yarn compile:watch
 ```
 
-or
-
 ```
-yarn dev
+yarn lint
 ```
 
-or
+```
+yarn test
+```
 
 ```
-yarn build
+yarn build:cra
 ```
