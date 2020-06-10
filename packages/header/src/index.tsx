@@ -6,10 +6,10 @@ import Subheader from 'Subheader';
 
 function Header(): JSX.Element {
   return (
-    <header>
+    <header data-testid="header">
       <h1>Monorepos Multipackages - TS</h1>
-      <p>{hello()}</p>
       <Subheader />
+      <p>{hello()}</p>
     </header>
   );
 }

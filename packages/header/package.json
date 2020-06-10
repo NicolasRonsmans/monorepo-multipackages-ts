@@ -5,11 +5,17 @@
   "types": "build/index.d.ts",
   "version": "0.1.0",
   "scripts": {
-    "lint": "yarn eslint ./src --ext .ts,.tsx",
-    "test": "true"
+    "lint": "yarn lint:types && yarn lint:eslint && yarn lint:format",
+    "lint:eslint": "eslint ./src --ext .ts,.tsx",
+    "lint:format": "prettier-check '{*.{js,json,md},src/**/*.{ts,tsx}}'",
+    "lint:types": "tsc -p tsconfig.json",
+    "test": "jest --passWithNoTests",
+    "test:watch": "yarn test --watchAll"
   },
   "dependencies": {
-    "@mmts/utils": "*"
+    "@mmts/utils": "*",
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1"
   },
   "peerDependencies": {
     "@types/react": "^16.9.23",

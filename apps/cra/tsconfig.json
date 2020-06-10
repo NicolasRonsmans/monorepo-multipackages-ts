@@ -4,11 +4,7 @@
     "allowSyntheticDefaultImports": true,
     "composite": false,
     "isolatedModules": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "noEmit": true,
     "plugins": [],
@@ -21,7 +17,5 @@
     "moduleResolution": "node",
     "jsx": "react"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
