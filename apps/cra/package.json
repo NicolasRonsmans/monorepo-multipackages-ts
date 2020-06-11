@@ -17,11 +17,11 @@
   "scripts": {
     "start": "PORT=8080 BROWSER=none react-scripts start",
     "build": "react-scripts build",
-    "test": "yarn jest --passWithNoTests",
     "lint": "yarn lint:types && yarn lint:eslint && yarn lint:format",
     "lint:eslint": "eslint ./src --ext .ts,.tsx",
     "lint:format": "prettier-check '{*.{js,json,md},src/**/*.{ts,tsx}}'",
     "lint:types": "tsc -p tsconfig.json",
+    "test": "jest --passWithNoTests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

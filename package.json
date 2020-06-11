@@ -10,7 +10,7 @@
   "author": "NicolasRonsmans <ronsmans.nicolas@gmail.com>",
   "scripts": {
     "clean": "npx rimraf -r **/node_modules packages/**/build **/*.tsbuildinfo",
-    "compile": "ttsc --build ./packages/tsconfig.refs.json --force",
+    "compile": "ttsc --build ./packages/tsconfig.refs.json --force --verbose",
     "compile:watch": "yarn run compile --watch",
     "build:cra": "yarn run compile && yarn workspace @mmts/cra build",
     "start:cra": "yarn compile && concurrently 'yarn compile:watch' 'yarn workspace @mmts/cra start'",
