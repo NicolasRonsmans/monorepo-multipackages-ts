@@ -12,8 +12,5 @@
     "test": "jest --passWithNoTests",
     "test:watch": "yarn test --watchAll"
   },
-  "dependencies": {
-    "@types/jest": "^26.0.0",
-    "jest": "^26.0.1"
-  }
+  "dependencies": {}
 }

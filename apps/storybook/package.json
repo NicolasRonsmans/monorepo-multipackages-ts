@@ -1,0 +1,29 @@
+{
+  "name": "@mmts/storybook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-info": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@types/react": "^16.9.0",
+    "@mmts/header": "*",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "start": "start-storybook -p 6006 --quiet --ci",
+    "build": "build-storybook -o build/",
+    "lint": "yarn lint:types && yarn lint:eslint && yarn lint:format",
+    "lint:eslint": "eslint ./src --ext .ts,.tsx",
+    "lint:format": "prettier-check '{*.{js,json,md},src/**/*.{ts,tsx}}'",
+    "lint:types": "tsc -p tsconfig.json",
+    "test": "true"
+  }
+}

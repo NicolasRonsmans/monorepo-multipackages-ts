@@ -10,12 +10,13 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
-    "noEmit": true,
     "plugins": [],
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "target": "es5",
+    "types": ["node", "react"],
     "strict": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "build", "scripts"]
 }

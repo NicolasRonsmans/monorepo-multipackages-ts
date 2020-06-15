@@ -8,20 +8,19 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "eslint-config-react-app": "^5.2.1",
-    "jest": "^24",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "typescript": "~3.9.5"
   },
   "scripts": {
-    "start": "PORT=8080 BROWSER=none react-scripts start",
-    "build": "react-scripts build",
+    "start": "PORT=8080 BROWSER=none SKIP_PREFLIGHT_CHECK=true react-scripts start",
+    "build": "SKIP_PREFLIGHT_CHECK=true react-scripts build",
     "lint": "yarn lint:types && yarn lint:eslint && yarn lint:format",
     "lint:eslint": "eslint ./src --ext .ts,.tsx",
     "lint:format": "prettier-check '{*.{js,json,md},src/**/*.{ts,tsx}}'",
     "lint:types": "tsc -p tsconfig.json",
-    "test": "jest --passWithNoTests",
+    "test": "true",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
