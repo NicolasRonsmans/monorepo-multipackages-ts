@@ -14,6 +14,10 @@ yarn
 yarn start:cra
 ```
 
+```
+yarn start:storybook
+```
+
 ### Or
 
 ```
@@ -36,6 +40,10 @@ yarn test
 yarn build:cra
 ```
 
+```
+yarn build:storybook
+```
+
 ## Walkthrough
 
 ### Monorepo
@@ -43,7 +51,7 @@ yarn build:cra
 This is entirely managed by Yarn Workspaces built-in functionalities.
 There are 2 types of workspaces:
 
-- `apps/*`: is hosting deployable web apps (CRA, Next.js, Gatsby, ...)
+- `apps/*`: is hosting deployable web apps (CRA, Next.js, Gatsby, Storybook, ...)
 - `packages/*`: is hosting buildable, sharable and publishable packages (TypeScript -> es5)
 
 ### Git

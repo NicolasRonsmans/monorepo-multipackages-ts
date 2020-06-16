@@ -1,6 +1,9 @@
 # don't ever lint node_modules
 node_modules
 # don't lint shared config
+husky.config.js
+lint-staged.config.js
+prettier.config.js
 packages/tsconfig*
 packages/jest.config.js
 packages/*/jest.config.js
